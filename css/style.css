@@ -1,52 +1,23 @@
-
 body{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color: #774E2E;
     margin: 0;
+    box-sizing: border-box;
 }
 
 header{
-    /* border: 3px solid red; */
     padding-top: 30px;
-}
-
-h1{
-    font-size: 110px;
-    font-weight: 800;
-    margin-top: 0;
-    margin-bottom: 40px;
-}
-
-h1 span{
-    color: #F37F34;
-}
-
-p{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-}
-
-.container{
-    /* border: 2px solid blue; */
-    max-width: 1170px;
-    margin: 0 auto;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 160px;
-}
-
-.logo{
-    
 }
 
 .menu{
-    /* border: 2px solid green; */
-    display: flex;
     align-items: center;
+    display: flex;
+
 }
 
 .menu a{
@@ -57,26 +28,167 @@ nav{
     margin-left: 50px;
 }
 
-.yummy-welcome{
-    /* border: 2px solid red; */
-    width: 575px;
+.container{
+    width: 1170px;
+    margin: auto;
 }
+
+.fb-01{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container-01{
+    background-image: url(../image/yummy_dog_bord.png);
+    background-position-x: right;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+}
+
+.image-container-advice-from-yummy{
+    background-image: url(../image/mops_02.jpg);
+    background-position-x: right;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+
+
+.yummy-welcome{
+    margin-top: 161px;
+    width: 575px;
+    padding-bottom: 140px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 110px;
+    color: #774E2E;
+    margin-bottom: 40px;
+    line-height: 100%;
+}
+
+.color-orange{
+    color: #F37F34;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.01em;
+}
+
+h3 {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 36px 0 15px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.items{
+    margin: 70px 0 0 0;
+}
+
+.card{
+    margin: 0;
+    width: 375px;
+    background-color: white;
+    text-align: center;
+}
+
+.card p{
+    margin: 0 20px 36px;
+}
+
+.advice-from-yummy{
+    width: 575px;
+    padding: 194px 0 194px;
+}
+
+.advice-from-yummy p{
+    margin: 30px 0 60px;
+}
+
+.advice-from-yummy ul{
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    padding-inline-start: 20px;
+}
+
 
 .btn{
-    background-color: #774E2E;
-    font-size: 20px;
-    color: #ffffff;
-    line-height: 26px;
-    border: none;
-    padding: 22px 41px;
-    font-weight: 500;
-    font-family: Montserrat;
+    width: 343px;
+    height: 69px;
     margin-top: 50px;
+    background-color: #774E2E;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
 }
 
-.header-section{
-    background-image: url('../image/bg.png');
-    background-repeat: no-repeat;
-    background-position: center right;
-    padding-bottom: 140px;
+
+footer{
+    height: 179px;
+    display: flex;
+    background-color: #774E2E;
+    color: white;
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo-footer{
+    width: 99px;
+    height: 99px;
+}
+
+.full-size{
+    width: 100%;
+    padding: 150px 0;
+    background-color: #FFF9EA;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+.train{
+    border: 3px solid red;
+}
+
+.footer-text{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
 }
